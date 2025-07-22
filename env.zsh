@@ -35,10 +35,10 @@ ros1_on() {
 ros2_on() {
   ros1_off
   export ROS_VERSION=2
-  export ROS_DISTRO=humble
+  export ROS_DISTRO=jazzy
   export ROS_DOMAIN_ID=42
   export ROS_PYTHON_VERSION=3
-  source /opt/ros/humble/setup.zsh
+  source /opt/ros/jazzy/setup.zsh
 }
 
 proxy_on () {
